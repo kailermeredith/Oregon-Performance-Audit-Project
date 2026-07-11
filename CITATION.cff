@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+
+title: "Oregon Performance Audit Project"
+
+message: "If you use this project in your research, please cite it using the metadata below."
+
+authors:
+
+- family-names: Meredith
+  given-names: Kailer
+
+version: 0.2.0
+
+date-released: 2026-07
+
+license: MIT
+
+repository-code: https://github.com/kailermeredith/Oregon-Performance-Audit-Project
