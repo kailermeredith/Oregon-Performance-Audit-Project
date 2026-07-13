@@ -1,149 +1,203 @@
-# Methodology
-
-## Purpose
-
-The Oregon Performance Audit Project (OPAP) employs a standardized methodology to evaluate the implementation of recommendations issued through performance audits conducted by the Oregon Secretary of State Audits Division.
-
-The purpose of this methodology is to ensure that project findings are transparent, consistent, reproducible, and grounded in publicly available evidence.
-
-This document serves as the project's methodological framework and is intended to evolve as new information, research techniques, and lessons learned are incorporated into future releases.
+# OPAP Methodology
+Version 1.0
+Status: Active
+Last Updated: July 2026
 
 ---
 
-# Research Objectives
+# 1. Purpose
 
-The project seeks to answer several primary research questions:
+The Oregon Performance Audit Project (OPAP) is a structured research initiative that converts Oregon Secretary of State performance audits into a standardized relational database for policy analysis, oversight research, and academic study.
 
-1. To what extent are performance audit recommendations implemented by Oregon state agencies?
-
-2. Which recommendation types demonstrate the highest implementation rates?
-
-3. Which agencies exhibit recurring implementation strengths or challenges?
-
-4. Are statewide trends observable across multiple audit reports?
-
-5. What policy lessons can be drawn from implementation outcomes?
+Rather than treating audit reports as isolated publications, OPAP extracts findings, recommendations, implementation information, and analytical metadata into a consistent data model.
 
 ---
 
-# Scope
+# 2. Research Objectives
 
-Current Scope
+The project seeks to:
 
-- Oregon Secretary of State Performance Audits
-- Audit reports issued by the Audits Division
-- Publicly available implementation information
-- Agency responses
-- Follow-up reports
-- Legislative testimony when applicable
+• Create a comprehensive inventory of Oregon performance audits.
 
-Future project phases may expand to include additional oversight reports and comparative analyses with other jurisdictions.
+• Standardize audit findings and recommendations.
 
----
+• Identify recurring organizational and policy problems.
 
-# Unit of Analysis
+• Analyze implementation trends over time.
 
-The primary unit of analysis is the **individual audit recommendation**.
-
-Each recommendation is evaluated independently.
-
-Recommendations are grouped within audits for reporting purposes but are coded individually to maximize analytical precision.
+• Support evidence-based legislative and administrative reform.
 
 ---
 
-# Data Sources
+# 3. Data Sources
 
-Primary sources include:
+The primary data source is:
 
-- Oregon Secretary of State audit reports
-- Official audit follow-up reports
-- Agency implementation updates
-- Legislative documents
-- Administrative reports
-- Publicly available supporting documentation
+Oregon Secretary of State
+Audits Division
+Official Performance Audit Reports
 
-Whenever possible, implementation determinations rely upon multiple independent sources.
+Secondary sources include:
 
----
+• audit follow-up reports
+• agency implementation reports
+• legislative testimony
+• administrative responses
+• official supporting documentation
 
-# Recommendation Coding
-
-Each recommendation receives standardized metadata including:
-
-- Audit number
-- Audit title
-- Agency
-- Publication year
-- Recommendation number
-- Recommendation category
-- Responsible entity
-
-Implementation status is assigned according to the project's Coding Manual.
+Only primary-source information is used for coding.
 
 ---
 
-# Quality Assurance
+# 4. Unit of Analysis
 
-To promote consistency:
+The primary unit of analysis is the individual audit report.
 
-- Coding procedures are documented.
-- Definitions are standardized.
-- Evidence requirements are specified.
-- Coding decisions are recorded.
-- Methodological revisions are version-controlled.
+Within each audit, OPAP extracts:
 
-Quality assurance procedures will continue to expand as the project develops.
+Audit
+↓
 
----
+Finding
+↓
 
-# Transparency
+Recommendation
+↓
 
-OPAP is committed to transparent research practices.
+Analytical Coding
 
-Whenever practical, the following materials are made publicly available:
-
-- Methodology
-- Coding manuals
-- Project documentation
-- Version history
-- Research reports
-- Policy briefs
-
-This allows readers to understand how conclusions were reached.
+This hierarchical structure preserves the relationships between observations and recommendations while allowing quantitative analysis.
 
 ---
 
-# Limitations
+# 5. Corpus Construction
 
-Several limitations should be recognized.
+Reports are screened before inclusion.
 
-Implementation assessments depend upon publicly available information.
+Included reports must:
 
-Agency activities not documented in public records may not be observable.
+• evaluate government performance
 
-Coding decisions necessarily involve professional judgment despite standardized procedures.
+• evaluate management, operations, economy, efficiency, or effectiveness
 
-Future releases will continue refining methodologies to minimize these limitations.
+• contain findings
+
+• contain recommendations
+
+Excluded reports include:
+
+• Financial Statement Audits
+
+• Single Audits
+
+• Financial Reviews
+
+• Agreed-Upon Procedures
+
+• Other financial assurance engagements
+
+Classification is based on report content rather than metadata alone.
 
 ---
 
-# Version Control
+# 6. Data Extraction Workflow
 
-Methodological revisions are documented through the project's release history.
+Every report follows the same workflow.
 
-Significant methodological changes will be summarized in release notes and reflected in updated project documentation.
+Official Report
+
+↓
+
+Audit Intake
+
+↓
+
+Finding Extraction
+
+↓
+
+Recommendation Extraction
+
+↓
+
+Root Cause Coding
+
+↓
+
+Action Type Coding
+
+↓
+
+Quality Assurance
+
+↓
+
+Production Database
+
+No audit bypasses this process.
 
 ---
 
-# Future Development
+# 7. Coding Philosophy
 
-Future methodological improvements may include:
+OPAP distinguishes between:
 
-- Expanded recommendation classifications
-- Automated coding support
-- Statistical analyses
-- Longitudinal implementation tracking
-- GIS integration
-- Cross-state comparative analyses
+Observation
 
-The methodology will remain a living document and will evolve alongside the project while maintaining transparency regarding substantive changes.
+Interpretation
+
+The database records what auditors concluded.
+
+Analytical coding adds standardized categories while preserving the original audit language.
+
+Whenever uncertainty exists, the original report takes precedence.
+
+---
+
+# 8. Root Cause Analysis
+
+Root causes are assigned only when supported by audit evidence.
+
+Multiple root causes may be assigned to a single recommendation.
+
+Root causes are stored in a relational table to preserve many-to-many relationships.
+
+---
+
+# 9. Quality Assurance
+
+Every audit undergoes review before completion.
+
+Quality checks include:
+
+✓ audit metadata
+
+✓ finding completeness
+
+✓ recommendation completeness
+
+✓ source verification
+
+✓ identifier validation
+
+✓ coding consistency
+
+---
+
+# 10. Version Control
+
+Methodological revisions are documented in DECISIONS.md.
+
+Database schema revisions are documented in CHANGELOG.md.
+---
+# 11. Limitations
+
+OPAP records information contained within published audit reports.
+
+The database does not independently verify audit findings.
+
+Confidential recommendations and supporting evidence are coded only when publicly referenced.
+
+Coding decisions reflect standardized interpretation of audit language and may evolve as the coding manual is refined.
+
+The project is intended to support comparative analysis rather than replace the original audit reports.
