@@ -1,291 +1,238 @@
-# Project Standards
-
-**Oregon Performance Audit Project (OPAP)**
-
-**Version:** 1.0
-
-**Status:** Active
+# OPAP Project Standards
+Version 1.0
+Status: Active
+Last Updated: July 2026
 
 ---
 
-# Purpose
+# 1. Purpose
 
-The Project Standards document establishes the operational standards used throughout the Oregon Performance Audit Project (OPAP). These standards promote consistency, transparency, and reproducibility across all project documentation, databases, reports, and research products.
+This document establishes the development, documentation, and data management standards for the Oregon Performance Audit Project (OPAP).
 
-All project materials should conform to these standards unless otherwise documented through an approved methodology revision.
-
----
-
-# Guiding Principles
-
-Project standards are intended to promote:
-
-- Consistency
-- Transparency
-- Reproducibility
-- Accuracy
-- Maintainability
-- Professional presentation
+Its purpose is to ensure that OPAP remains transparent, reproducible, internally consistent, and maintainable over time.
 
 ---
 
-# Repository Organization
+# 2. Core Principles
 
-The repository follows a standardized directory structure.
+OPAP is governed by the following principles.
 
-```
+## Accuracy
+
+Record what the audit states.
+
+Do not embellish, speculate, or infer unsupported conclusions.
+
+---
+
+## Consistency
+
+Apply identical coding standards to every audit.
+
+No agency, subject area, or audit receives special treatment.
+
+---
+
+## Transparency
+
+Every analytical decision should be traceable to:
+
+- the original audit
+- the Coding Manual
+- the Decisions Log
+
+---
+
+## Reproducibility
+
+A second analyst following the Coding Manual should reach substantially similar coding decisions.
+
+---
+
+## Simplicity
+
+Prefer solutions that are easy to understand and maintain.
+
+Avoid unnecessary complexity in database design or coding procedures.
+
+---
+
+# 3. Repository Organization
+
+The repository follows the structure below.
+
 docs/
-methodology/
-reports/
-policy-briefs/
+- CODING_MANUAL.md
+- METHODOLOGY.md
+- PROJECT_STANDARDS.md
+- DECISIONS.md
+- ROADMAP.md
+
 data/
-figures/
-references/
-```
+- raw/
+- processed/
+- reference/
 
-New folders should only be created when a recurring project need is identified.
+database/
+- schema
+- exports
 
----
-
-# File Naming Conventions
-
-File names should be descriptive, concise, and machine-readable.
-
-## Markdown Documents
-
-```
-PROJECT_CHARTER.md
-PROJECT_STANDARDS.md
-METHODOLOGY.md
-VISION.md
-ROADMAP.md
-```
-
-Use uppercase for major governance documents.
+assets/
+- diagrams
+- figures
+- templates
 
 ---
 
-## Reports
+# 4. Naming Conventions
 
-```
-OPAP_Annual_Report_2027.pdf
+## Audits
 
-OPAP_Implementation_Report_Transportation.pdf
-```
+AUD-YYYY-###
 
----
+Example:
 
-## Datasets
-
-```
-Audit_Inventory.xlsx
-
-Recommendation_Database.xlsx
-
-Agency_Directory.xlsx
-```
+AUD-2010-001
 
 ---
 
-## Figures
+## Findings
 
-```
-Figure_01_Implementation_Rates.png
-
-Figure_02_Agency_Comparison.png
-```
+AUD-YYYY-001-F01
 
 ---
 
-# Database Standards
+## Recommendations
 
-Each table shall contain:
-
-- Primary key
-- Clearly defined variables
-- Standardized field names
-- Controlled categorical values where applicable
-
-Primary keys are immutable once assigned.
+AUD-YYYY-001-R01
 
 ---
 
-## Naming Conventions
+## Sources
 
-Field names use:
+SRC-0001
 
-```
-snake_case
-```
+---
+
+## Root Causes
+
+RC01
+
+RC02
+
+...
+
+---
+
+# 5. Database Standards
+
+Each data element shall have one authoritative location.
+
+Duplicate information should be avoided whenever possible.
+
+Relationships should be represented using identifiers rather than repeated text.
+
+Database normalization is preferred when it improves consistency and maintainability.
+
+---
+
+# 6. Documentation Standards
+
+Every major methodological change shall update:
+
+- DECISIONS.md
+- the affected documentation
+- the version number (when appropriate)
+
+Historical decisions should never be deleted.
+
+---
+
+# 7. Version Control
+
+Use semantic versioning.
+
+Major versions reflect methodological or schema changes.
+
+Minor versions reflect new functionality.
+
+Patch versions reflect corrections and documentation updates.
+
+Example:
+
+v1.0.0
+
+v1.1.0
+
+v1.1.1
+
+---
+
+# 8. Git Commit Standards
+
+Commit messages should be concise and descriptive.
 
 Examples:
 
-```
-audit_id
+Add AUD-2010-001 findings
 
-finding_id
+Update Coding Manual to v1.0
 
-recommendation_id
+Populate agencies table
 
-publication_date
+Complete corpus screening for 2010
 
-implementation_status
-```
+Avoid generic commit messages such as:
 
-Avoid spaces, punctuation, and abbreviations unless widely understood.
+"Update"
 
----
+"Changes"
 
-# Identifier Standards
-
-Unique identifiers remain permanent.
-
-Examples:
-
-```
-AUD-2014-001
-
-FND-2014-001-01
-
-REC-2014-001-01
-```
-
-Identifiers should never be reused.
+"Misc fixes"
 
 ---
 
-# Controlled Vocabulary
+# 9. Quality Assurance
 
-Categorical variables shall use standardized values.
+Before closing an audit:
 
-Examples include:
+✓ Metadata complete
 
-## Implementation Status
+✓ Findings extracted
 
-- Implemented
-- Substantially Implemented
-- Partially Implemented
-- Not Implemented
-- Unable to Determine
+✓ Recommendations extracted
 
-## Confidence
+✓ Root causes assigned
 
-- High
-- Moderate
-- Low
+✓ Sources verified
 
-## Review Status
-
-- Pending
-- Reviewed
-- Final
+✓ Internal consistency confirmed
 
 ---
 
-# Source Documentation
+# 10. Research Integrity
 
-Every implementation assessment should reference supporting evidence whenever possible.
+OPAP is intended to support objective analysis.
 
-Acceptable source types include:
+Analysts shall:
 
-- Audit reports
-- Follow-up reports
-- Agency documentation
-- Legislative records
-- Administrative rules
-- Official websites
-
-Personal communications should not be used as primary evidence.
+- preserve original audit meaning
+- document uncertainty
+- avoid advocacy within coding
+- distinguish evidence from interpretation
+- prioritize reproducibility over speed
 
 ---
 
-# Citation Standards
+# 11. Long-Term Maintenance
 
-Audit titles should match the official published title.
+Future development should prioritize:
 
-Agency names should follow official state naming conventions.
+- data quality
+- documentation
+- reproducibility
+- scalability
 
-Dates should use ISO 8601 format:
+Feature additions should not compromise methodological consistency.
 
-```
-YYYY-MM-DD
-```
-
----
-
-# Version Control
-
-Semantic Versioning is used.
-
-```
-Major.Minor.Patch
-```
-
-Examples:
-
-```
-0.1.0
-
-0.2.0
-
-1.0.0
-```
-
-Major methodological revisions require a new release.
-
----
-
-# Quality Assurance
-
-Before publication, verify:
-
-- Spelling and grammar
-- Working hyperlinks
-- Accurate citations
-- Consistent terminology
-- Database integrity
-- Cross-reference validation
-
----
-
-# Data Integrity
-
-Project data should prioritize:
-
-- Accuracy over completeness
-- Documentation over assumption
-- Evidence over inference
-
-When evidence is insufficient, records should be coded as **Unable to Determine** rather than inferred.
-
----
-
-# Documentation Standards
-
-Every major document should include:
-
-- Title
-- Version
-- Status
-- Purpose
-- Date of significant revision (when applicable)
-
----
-
-# Release Standards
-
-Each public release should include:
-
-- Updated release notes
-- Changelog entry
-- Version tag
-- Documentation updates
-- Dataset revisions (if applicable)
-
----
-
-# Future Revisions
-
-This document is intended to evolve alongside OPAP.
-
-Changes to project standards shall be documented through GitHub version releases and reflected in the project changelog.
+The database is intended to evolve gradually through documented decisions rather than frequent redesign.
