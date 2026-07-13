@@ -188,7 +188,9 @@ Quality checks include:
 
 Methodological revisions are documented in DECISIONS.md
 
+
 Database schema revisions are documented in DECISIONS.md
+
 ---
 # 11. Limitations
 
