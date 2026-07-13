@@ -186,7 +186,8 @@ Quality checks include:
 
 # 10. Version Control
 
-Methodological revisions are documented in DECISIONS.md.
+Methodological revisions are documented in DECISIONS.md
+
 Database schema revisions are documented in DECISIONS.md
 ---
 # 11. Limitations
