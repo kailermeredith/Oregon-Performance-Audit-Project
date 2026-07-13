@@ -1,115 +1,113 @@
-# Roadmap
-
-The Oregon Performance Audit Project (OPAP) is being developed through a series of structured releases. Each release expands the project's analytical capabilities, documentation, and publicly available research products.
+# OPAP Roadmap
+Version 1.0
+Status: Active
+Last Updated: July 2026
 
 ---
 
-# Current Status
+# Vision
 
-**Current Version:** v0.1.0 (Project Foundation)
+Develop the Oregon Performance Audit Project into a comprehensive, transparent, and reproducible database of Oregon Secretary of State performance audits that supports research, legislative oversight, and evidence-based policymaking.
 
-Completed:
+---
+
+# Phase 1 – Foundation ✅ COMPLETE
+
+Objectives
+
+- Establish GitHub repository
+- Design relational database
+- Develop coding methodology
+- Create project documentation
+- Validate schema using a pilot audit
+
+Deliverables
 
 - Repository established
-- Project vision published
-- Documentation framework created
-- Initial policy materials uploaded
-- MIT License adopted
+- Database Version 1.0
+- Coding Manual Version 1.0
+- Methodology Version 1.0
+- Project Standards Version 1.0
+- Decisions Log established
+- AUD-2010-001 successfully coded
 
 ---
 
-# Version 0.2.0 — Research Framework
+# Phase 2 – Corpus Construction 🟡 IN PROGRESS
 
-Objective:
+Objectives
 
-Establish the standards and documentation necessary to support consistent, transparent, and reproducible research.
+- Screen all 2010 performance audits
+- Screen all 2011 performance audits
+- Screen all 2012 performance audits
+- Verify PDF availability
+- Freeze Release 1.0 corpus
 
-Deliverables:
+Success Criteria
 
-- Project roadmap
-- Research methodology
-- Version history
-- Citation guidance
-- Contributor guidelines
+Every audit included in the corpus has:
 
-Status:
-
-🟢 In Progress
-
----
-
-# Version 0.3.0 — Data Infrastructure
-
-Objective:
-
-Develop the project's foundational datasets and coding framework.
-
-Deliverables:
-
-- Complete audit inventory
-- Recommendation database
-- Agency metadata
-- Data dictionary
-- Quality assurance procedures
+- screening status
+- verified source document
+- assigned OPAP ID
 
 ---
 
-# Version 0.4.0 — Initial Analysis
+# Phase 3 – Production Coding
 
-Objective:
+Objectives
 
-Begin systematic coding and publish preliminary findings.
+- Complete coding of 2010 audits
+- Complete coding of 2011 audits
+- Complete coding of 2012 audits
 
-Deliverables:
+Deliverables
 
-- Initial implementation analyses
-- Summary statistics
-- Data visualizations
-- Progress dashboard
-
----
-
-# Version 0.5.0 — Publication Preparation
-
-Objective:
-
-Prepare the project for its first comprehensive public release.
-
-Deliverables:
-
-- Technical report
-- Executive summary
-- Updated policy brief
-- Repository review
+Fully populated relational database.
 
 ---
 
-# Version 1.0.0 — First Annual Release
+# Phase 4 – Quality Assurance
 
-Objective:
+Objectives
 
-Publish the first complete public release of the Oregon Performance Audit Project.
+- Review coding consistency
+- Resolve ambiguous records
+- Validate database integrity
+- Review documentation
 
-Deliverables:
+Deliverables
 
-- Comprehensive audit inventory
-- Standardized recommendation coding
-- Public dataset
-- Annual report
-- Policy recommendations
-- Documentation archive
+Research-ready dataset.
+
+---
+
+# Phase 5 – Analysis
+
+Potential analyses include:
+
+- Root cause frequency
+- Recommendation trends
+- Agency comparisons
+- Governance patterns
+- Implementation outcomes
+- Legislative implications
+
+---
+
+# Phase 6 – Publication
+
+Potential outputs
+
+- Public GitHub release
+- Downloadable database
+- Technical documentation
+- Research article
+- Policy brief
+- Conference presentation
 
 ---
 
 # Long-Term Vision
 
-Future development may include:
-
-- Interactive dashboards
-- GIS visualization
-- Longitudinal implementation analyses
-- Comparative state studies
-- Academic collaboration
-- Public engagement resources
-
-The roadmap is reviewed periodically and updated as the project evolves.
+Expand OPAP beyond the initial corpus to create a longitudinal resource for analyzing Oregon government performance, organizational learning, and implementation of audit recommendations over time.
