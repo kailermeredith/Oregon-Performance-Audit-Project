@@ -1,0 +1,156 @@
+Corpus Status: Complete
+
+Coverage: Oregon Secretary of State Audits Division, Reports 2010-01 through 2010-41
+
+Release: OPAP v1.1.0
+__________________________________________________________________________________________
+Completion Statement
+
+The 2010 publication year has been fully screened using the OPAP inclusion and exclusion methodology.
+
+Every report numbered 2010-01 through 2010-41 has been assigned exactly one disposition:
+
+Included Performance Audit
+Excluded (documented screening reason)
+
+No report numbers remain unresolved.
+
+This establishes the first complete annual corpus for OPAP.
+___________________________________________________________________________________________
+Corpus Statistics
+
+Reports Included: 15
+| OPAP ID          | Report Number |
+| ---------------- | ------------- |
+| **AUD-2010-001** | 2010-01       |
+| **AUD-2010-002** | 2010-04       |
+| **AUD-2010-003** | 2010-08       |
+| **AUD-2010-004** | 2010-11       |
+| **AUD-2010-005** | 2010-12       |
+| **AUD-2010-006** | 2010-15       |
+| **AUD-2010-007** | 2010-16       |
+| **AUD-2010-008** | 2010-20       |
+| **AUD-2010-009** | 2010-22       |
+| **AUD-2010-010** | 2010-25       |
+| **AUD-2010-011** | 2010-27       |
+| **AUD-2010-012** | 2010-31       |
+| **AUD-2010-013** | 2010-34       |
+| **AUD-2010-014** | 2010-38       |
+| **AUD-2010-015** | 2010-39       |
+_____________________________________________________________________________________________
+Reports Excluded
+
+26
+
+Primary exclusion reasons:
+
+Financial statement audits
+Comprehensive Annual Financial Reports
+Annual Financial Reports
+Agreed-Upon Procedures
+Management Letters
+Contracted financial audits
+Other non-performance reports
+______________________________________________________________________________________________
+Methodology Validation
+
+The methodology proved stable throughout the 2010 corpus.
+
+No report required changing the inclusion criteria.
+
+The following procedures remained consistent:
+
+Title screening
+Cover-page verification
+Performance audit confirmation
+Metadata extraction
+Finding coding
+Recommendation coding
+Root-cause classification
+QA review
+
+No ambiguous inclusion decisions remained after review.
+______________________________________________________________________________________________
+Database Validation
+
+Confirmed:
+
+✅ Stable OPAP identifiers
+
+✅ Sequential numbering
+
+✅ Complete metadata
+
+✅ Findings linked to parent audits
+
+✅ Recommendations linked to parent audits
+
+✅ Citation references completed
+
+✅ No duplicate audits
+
+✅ No orphan records
+______________________________________________________________________________________________
+Taxonomy Review
+
+The first year validated several recurring root-cause categories.
+
+Core categories include:
+
+Governance
+Accountability
+Leadership
+Internal Control
+Performance Management
+Information Management
+Policy Framework
+Procurement & Contract Management
+Ethics & Accountability
+Organizational Culture
+Technology Modernization
+Business Continuity
+Information Security
+Vendor / Service Provider Oversight
+Intergovernmental Coordination
+Resource Management
+Operational Process
+
+No category required retirement.
+
+Several new categories emerged naturally from the audit evidence rather than being invented in advance, which suggests the taxonomy is evolving in response to the data.
+____________________________________________________________________________________________
+Policy Areas Represented
+
+The corpus now spans a diverse range of public-sector functions, including:
+
+Environmental and Watershed Management
+Education
+Information Technology
+State Data Centers
+Transportation
+Corrections
+Juvenile Justice
+Tax Administration
+Child Support
+Marine Governance
+Procurement
+Financial Administration
+Victim Restitution
+_____________________________________________________________________________________________
+Cross-Corpus Findings
+
+One of the clearest patterns to emerge is that Oregon's 2010 performance audits focused predominantly on organizational capability rather than policy direction.
+
+Across agencies, the recommendations consistently emphasized:
+
+stronger governance,
+clearer accountability,
+improved internal controls,
+better information management,
+technology modernization,
+standardized procedures,
+stronger performance measurement.
+
+This suggests the Audits Division's emphasis in 2010 was on improving how government functions, not redefining government programs.
+______________________________________________________________________________________________
+
