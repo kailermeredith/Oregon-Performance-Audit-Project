@@ -1,0 +1,232 @@
+# Oregon Performance Audit Project (OPAP)
+
+## Annual Closeout Report – 2011 Corpus
+
+### Version
+
+Release 2.0
+Date: July 2026
+
+---
+
+# Corpus Summary
+
+| Metric                                 | Count |
+| -------------------------------------- | ----: |
+| Reports screened                       |   24* |
+| Performance audits                     |     8 |
+| Information Systems performance audits |     2 |
+| Follow-up reviews                      |     2 |
+| Total OPAP reports included            |    10 |
+| Reports excluded                       |    14 |
+
+*Report 2011-07 was absent from the official publication sequence.
+
+---
+
+# Included Performance Audits
+
+| OPAP ID      | Report                                                                             | Agency                              | Audit Type                            |
+| ------------ | ---------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------- |
+| AUD-2011-001 | Continuing Sound Partnerships and Strategies for Restoration and Protection        | Oregon Watershed Enhancement Board  | Performance Audit                     |
+| AUD-2011-002 | Improve Management of Faculty Workload                                             | Oregon University System            | Performance Audit                     |
+| AUD-2011-003 | Increase Laboratory Productivity to Better Meet Customer Needs                     | Department of Environmental Quality | Performance Audit                     |
+| AUD-2011-004 | Adequate Computer Controls in Place for the Medicaid Management Information System | Department of Human Services        | Information Systems Performance Audit |
+| AUD-2011-005 | Strengthen Procedures and Documentation                                            | Department of Energy                | Performance Audit                     |
+| AUD-2011-006 | Continue Improvements Over Contract Monitoring                                     | Department of Aviation              | Performance Audit                     |
+| AUD-2011-007 | Computer Controls Ensured Accurate Processing of Tax Returns                       | Department of Revenue               | Information Systems Performance Audit |
+| AUD-2011-008 | Filing Enforcement and Collections Recommendations Follow-up                       | Department of Revenue               | Follow-up Review (Non-GAGAS)          |
+| AUD-2011-009 | Improve Controls over Child Enrollment Reporting and Advertising Expenditures      | Oregon Health Authority             | Performance Audit                     |
+| AUD-2011-010 | Audit Recommendations Follow-up                                                    | Oregon Commission for the Blind     | Follow-up Review (Non-GAGAS)          |
+
+---
+
+# Excluded Reports
+
+The following reports were excluded because they fell outside the project's inclusion criteria.
+
+### Financial Audits / Financial Reports
+
+2011-02
+
+2011-03
+
+2011-04
+
+2011-05
+
+2011-06
+
+2011-09
+
+2011-11
+
+2011-13
+
+2011-18
+
+2011-21
+
+2011-22
+
+2011-23
+
+2011-24
+
+### Not Published
+
+2011-07 (No report in official publication sequence.)
+
+---
+
+# Methodological Decisions
+
+During coding of the 2011 corpus, several methodological refinements were adopted.
+
+### Included
+
+* GAGAS Performance Audits
+* Information Systems Performance Audits
+* Official Audits Division Recommendation Follow-up Reviews (coded separately as Non-GAGAS Follow-up Reviews)
+
+### Excluded
+
+* Financial statement audits
+* Contracted financial audits
+* Comprehensive Annual Financial Reports (CAFRs)
+* Financial Condition Reports
+* Management Letters
+* Enterprise fund financial reports
+* Other financial reporting products lacking performance audit objectives
+
+These decisions establish a stable inclusion protocol for subsequent years.
+
+---
+
+# Sector Distribution
+
+| Policy Area              | Included Audits |
+| ------------------------ | --------------: |
+| Natural Resources        |               1 |
+| Higher Education         |               1 |
+| Environmental Management |               1 |
+| Health Administration    |               2 |
+| Information Technology   |               2 |
+| Transportation           |               1 |
+| Revenue Administration   |               2 |
+
+Compared with 2010, the 2011 corpus demonstrates considerably broader policy coverage while maintaining an emphasis on organizational governance and administrative effectiveness.
+
+---
+
+# Recurring Root Cause Themes
+
+The following governance issues appeared repeatedly across multiple audits.
+
+## Governance
+
+Observed in administrative oversight, contract management, delegated authority, and organizational accountability.
+
+## Internal Controls
+
+Frequently associated with procurement, financial stewardship, payment approval, and program administration.
+
+## Information Management
+
+Increasingly central to agency performance, particularly regarding management information systems and operational reporting.
+
+## Data Governance
+
+Emerged as a distinct issue involving data validation, reporting methodology, and accuracy of information used for management decisions.
+
+## Documentation
+
+One of the most frequently recurring themes, affecting contracts, procurement, advertising, laboratory procedures, and administrative processes.
+
+## Technology Governance
+
+Expanded substantially during 2011 through dedicated Information Systems performance audits covering application controls, cybersecurity, change management, and business continuity.
+
+## Performance Management
+
+Appeared repeatedly through recommendations encouraging agencies to establish meaningful metrics, monitor outcomes, and evaluate program effectiveness.
+
+## Organizational Capacity
+
+Frequently associated with leadership transitions, staffing constraints, and organizational growth.
+
+## Continuous Improvement
+
+A defining characteristic of 2011 due to the emergence of dedicated recommendation follow-up reviews.
+
+---
+
+# Major Governance Themes
+
+Five broad themes characterized the 2011 audit portfolio.
+
+## Information as a Strategic Asset
+
+Multiple audits concluded that agencies lacked sufficient management information, performance metrics, or reliable reporting systems to support effective decision-making.
+
+## Administrative Standardization
+
+Auditors consistently recommended formal policies, standardized procedures, and comprehensive documentation to improve organizational consistency.
+
+## Technology Governance
+
+Information technology became a major focus area, reflecting growing reliance on enterprise information systems across state government.
+
+## Organizational Resilience
+
+Several audits examined agencies adapting to significant organizational change, including leadership turnover, federal stimulus funding, or expanding workloads.
+
+## Implementation Accountability
+
+The appearance of multiple follow-up reviews demonstrates an increased emphasis on measuring whether agencies successfully implemented prior recommendations.
+
+---
+
+# Comparison with 2010
+
+| Characteristic                 | 2010     | 2011      |
+| ------------------------------ | -------- | --------- |
+| Included reports               | 11       | 10        |
+| Information Systems audits     | 1        | 2         |
+| Follow-up reviews              | 0        | 2         |
+| Technology governance emphasis | Limited  | Strong    |
+| Data governance emphasis       | Emerging | Strong    |
+| Enterprise governance          | Moderate | Extensive |
+
+While the total number of included audits remained stable, the subject matter broadened considerably during 2011. Information technology, organizational governance, and recommendation implementation became recurring features of the audit portfolio.
+
+---
+
+# Methodology Updates
+
+The following refinements were incorporated into OPAP during analysis of the 2011 corpus.
+
+* Established "Information Systems Performance Audit" as a formal audit subtype.
+* Established "Recommendation Follow-up Review (Non-GAGAS)" as a formal audit subtype.
+* Distinguished Data Governance from Information Management as separate root-cause categories.
+* Expanded Technology Governance into more specific concepts including Information Security, Change Management, Identity and Access Governance, and Application Controls.
+
+These refinements will be carried forward into subsequent years.
+
+---
+
+# Research Observations
+
+The 2011 corpus indicates a notable evolution in the Oregon Audits Division's approach to performance auditing.
+
+Rather than focusing primarily on operational efficiency, many audits emphasized organizational governance, enterprise information systems, administrative controls, and long-term implementation of recommendations. The emergence of dedicated follow-up reviews demonstrates that the Division increasingly viewed auditing as an ongoing improvement process rather than a one-time assessment.
+
+Across multiple policy areas—including environmental management, higher education, health administration, transportation, revenue administration, and information technology—the recurring recommendations centered on better information, stronger documentation, improved internal controls, clearer accountability, and enhanced performance measurement.
+
+---
+
+# Year-End Assessment
+
+The 2011 publication year represents the point at which Oregon's performance audit program matured into a broader enterprise governance function. Compared with 2010, audits became more diverse in subject matter, more technologically sophisticated, and increasingly focused on organizational learning and implementation of corrective actions.
+
+For OPAP, 2011 also represents the stabilization of the project's methodological framework. The inclusion criteria, audit typology, and root-cause taxonomy established during this year provide a consistent foundation for coding subsequent publication years and support future longitudinal analyses of governance trends within Oregon state government.
