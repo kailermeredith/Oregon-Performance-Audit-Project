@@ -1,36 +1,3 @@
-# OPAP Release 1.2a — 2012 Corpus Closeout
-
-![Status](https://img.shields.io/badge/status-complete-brightgreen)
-![Release](https://img.shields.io/badge/release-1.2a-blue)
-![Corpus](https://img.shields.io/badge/corpus-2012-informational)
-![Performance Audits](https://img.shields.io/badge/performance_audits-12-success)
-![Project](https://img.shields.io/badge/project-OPAP-darkgreen)
-
----
-
-## Overview
-
-This document summarizes completion of the **2012 Oregon Performance Audit corpus** for the **Oregon Performance Audit Project (OPAP)**.
-
-The 2012 corpus represents the third completed year of coding and concludes the **2010–2012 pilot phase** of the project.
-
----
-
-# Table of Contents
-
-* [Corpus Summary](#corpus-summary)
-* [Performance Audits Included](#performance-audits-included)
-* [Financial Audits Excluded](#financial-audits-excluded)
-* [Reports Not Present](#reports-not-present)
-* [Corpus Statistics](#corpus-statistics)
-* [Research Observations](#research-observations)
-* [Taxonomy Development](#taxonomy-development)
-* [Cross-Year Comparison](#cross-year-comparison)
-* [Project Status](#project-status)
-* [Next Milestone](#next-milestone)
-
----
-
 # Corpus Summary
 
 | Category                  |  Count |
@@ -43,9 +10,6 @@ The 2012 corpus represents the third completed year of coding and concludes the 
 ---
 
 # Performance Audits Included
-
-<details>
-<summary><strong>View included performance audits (12)</strong></summary>
 
 | Report  | Title                                                                                    |
 | ------- | ---------------------------------------------------------------------------------------- |
@@ -62,14 +26,9 @@ The 2012 corpus represents the third completed year of coding and concludes the 
 | 2012-26 | Improve Accountability                                                                   |
 | 2012-28 | More Timely and Consistent Services                                                      |
 
-</details>
-
 ---
 
 # Financial Audits Excluded
-
-<details>
-<summary><strong>View excluded financial audits (11)</strong></summary>
 
 * 2012-01
 * 2012-03
@@ -83,14 +42,9 @@ The 2012 corpus represents the third completed year of coding and concludes the 
 * 2012-34
 * 2012-35
 
-</details>
-
 ---
 
-# Reports Not Present
-
-<details>
-<summary><strong>View unavailable reports (12)</strong></summary>
+# Reports Not Present in Dataset
 
 * 2012-02
 * 2012-06
@@ -105,8 +59,6 @@ The 2012 corpus represents the third completed year of coding and concludes the 
 * 2012-30
 * 2012-33
 
-</details>
-
 ---
 
 # Corpus Statistics
@@ -119,30 +71,28 @@ The 2012 corpus represents the third completed year of coding and concludes the 
 
 ---
 
-# Research Observations
+# Key Research Observations
 
-## Systems Auditing
+## 1. Shift Toward Systems Auditing
 
-Beginning in 2012, Oregon's performance audits increasingly shifted away from isolated agency operations toward evaluation of statewide policy systems.
+The 2012 corpus marks a clear transition from agency-focused operational audits toward evaluations of statewide policy systems. Rather than concentrating on individual programs, auditors increasingly examined cross-agency governance structures and long-term policy effectiveness.
 
-Examples include:
+Representative topics include:
 
 * Workforce development
 * Children's behavioral health
 * Federal grant administration
 * Energy policy
-* Boards and commissions
 * Supplier diversity certification
+* State boards and commissions
 
-> **Observation**
->
-> The primary analytical unit shifted from **individual agencies** to **public systems**.
+The primary analytical unit shifted from the **individual agency** to the **public system**.
 
 ---
 
-## Governance
+## 2. Governance Became the Central Theme
 
-Governance emerged as the dominant analytical theme.
+Governance emerged as the dominant focus throughout the year.
 
 Recurring concepts include:
 
@@ -150,79 +100,79 @@ Recurring concepts include:
 * Transparency
 * Board oversight
 * Legislative design
-* Organizational capacity
 * Interagency coordination
+* Organizational capacity
 
-Many reports concluded that organizational structure itself significantly influenced program performance.
+Many reports concluded that organizational design and governance arrangements influenced program performance as much as day-to-day operations.
 
 ---
 
-## Outcomes Over Compliance
+## 3. Greater Emphasis on Outcomes
 
-The 2012 corpus increasingly evaluates whether public programs actually achieve intended outcomes.
+Audits increasingly evaluated whether state programs produced their intended public benefits rather than simply complying with statutory or administrative requirements.
 
-Representative examples include:
+Examples include:
 
 * Workforce shortages
-* Child reunification
+* Child reunification outcomes
 * Mental health access
 * Energy savings
 * Certification timeliness
 
-This marks a noticeable evolution from compliance-focused auditing.
+Outcome evaluation became a defining characteristic of the 2012 corpus.
 
 ---
 
-## Performance Measurement
+## 4. Performance Measurement Matured
 
-Nearly every performance audit emphasized:
+Nearly every performance audit emphasized the importance of management information, including:
 
 * Performance indicators
-* Dashboards
 * Comparative analysis
 * Trend monitoring
+* Dashboards
 * Data quality
-* Continuous improvement
+* Continuous performance monitoring
 
-Performance management became a recurring audit objective rather than simply a supporting management function.
+This represents a notable evolution from the more control-oriented emphasis observed in earlier years.
 
 ---
 
-## Strategic Planning
+## 5. Strategic Planning Became Increasingly Prominent
 
-Several audits evaluated long-term planning capacity, including:
+Several audits evaluated agencies' ability to anticipate future needs instead of merely responding to existing problems.
+
+Examples include:
 
 * Workforce forecasting
 * Energy investment prioritization
-* Sunset review
-* Resource allocation
+* Board sunset reviews
 * Statewide coordination
+* Resource allocation
 
-Planning increasingly became an audit criterion alongside operational effectiveness.
+Strategic planning became an increasingly common audit criterion.
 
 ---
 
-## Information as a Strategic Asset
+## 6. Information as a Strategic Asset
 
-Data were increasingly treated as management infrastructure rather than administrative records.
+Rather than treating data solely as administrative records, many audits viewed information as a management resource requiring:
 
-Recurring themes include:
-
-* Data governance
-* Decision support
+* Data quality controls
+* Performance analytics
+* Decision-support systems
 * Knowledge sharing
-* Analytics
-* Performance reporting
+* Governance structures
+
+Information management became a recurring governance issue across multiple policy areas.
 
 ---
 
-# Taxonomy Development
+# OPAP Taxonomy Development
 
-2012 significantly expanded the OPAP taxonomy.
+The 2012 corpus substantially expanded the OPAP taxonomy by introducing or reinforcing several coding categories.
 
-<details open>
-
-<summary><strong>Governance & Accountability</strong></summary>
+### Governance & Accountability
 
 * Governance
 * Board Governance
@@ -230,11 +180,7 @@ Recurring themes include:
 * Legislative Design
 * Transparency
 
-</details>
-
-<details>
-
-<summary><strong>Strategy & Management</strong></summary>
+### Strategy & Management
 
 * Strategic Planning
 * Decision Support
@@ -242,11 +188,7 @@ Recurring themes include:
 * Organizational Capacity
 * Workforce Planning
 
-</details>
-
-<details>
-
-<summary><strong>Service Delivery</strong></summary>
+### Service Delivery
 
 * Care Coordination
 * Equity & Access
@@ -255,11 +197,7 @@ Recurring themes include:
 * Workflow Design
 * Results-Based Management
 
-</details>
-
-<details>
-
-<summary><strong>Information & Technology</strong></summary>
+### Information & Technology
 
 * Data Governance
 * Information Technology Governance
@@ -267,35 +205,29 @@ Recurring themes include:
 * Change Management
 * Business Continuity
 
-</details>
-
-<details>
-
-<summary><strong>Performance & Finance</strong></summary>
+### Performance & Finance
 
 * Cost-Benefit Analysis
 * Performance Measurement
 * Resource Management
 
-</details>
+These additions represent a substantial expansion beyond the operational and internal-control focus that characterized the early years of the project.
 
 ---
 
 # Cross-Year Comparison
 
-| Year     | Performance Audits | Dominant Themes                                                       |
-| -------- | -----------------: | --------------------------------------------------------------------- |
-| **2010** |                 12 | Internal controls • Financial stewardship • Program administration    |
-| **2011** |                 11 | Operational effectiveness • Service delivery • Management improvement |
-| **2012** |                 12 | Governance • Statewide systems • Strategic performance                |
+| Year     | Performance Audits | Dominant Themes                                                     |
+| -------- | -----------------: | ------------------------------------------------------------------- |
+| **2010** |                 12 | Internal controls, financial stewardship, program administration    |
+| **2011** |                 11 | Operational effectiveness, service delivery, management improvement |
+| **2012** |                 12 | Governance, statewide systems, strategic performance                |
 
-> **Key Trend**
->
-> The first three years demonstrate a gradual transition from **operational auditing** toward **governance-oriented performance auditing**.
+Across the first three years, the Oregon Audits Division demonstrates a clear evolution toward broader governance and policy-oriented performance auditing.
 
 ---
 
-# Project Status
+# Release Status
 
 ## Completed Corpus Years
 
@@ -303,31 +235,11 @@ Recurring themes include:
 * ✅ 2011
 * ✅ 2012
 
----
-
-## OPAP Totals
+## Project Totals
 
 | Category                       |  Count |
 | ------------------------------ | -----: |
 | Performance audits coded       | **35** |
 | Financial audits excluded      | **24** |
 | Unavailable reports documented | **27** |
-
----
-
-## Repository Progress
-
-```text
-████████████████████████████████████████  Pilot Phase Complete
-
-2010  ████████████  ✓
-2011  ███████████  ✓
-2012  ████████████ ✓
-
-→ Next: 2013 Corpus
-```
-
----
-
-**Status:** ✅ Release 1.2a (2012 Corpus) Complete
 
