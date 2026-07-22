@@ -1,0 +1,244 @@
+# Corpus Summary
+
+| Category                  |  Count |
+| ------------------------- | -----: |
+| Reports in corpus         | **35** |
+| Performance audits coded  | **12** |
+| Financial audits excluded | **11** |
+| Reports unavailable       | **12** |
+
+---
+
+# Performance Audits Included
+
+| Report  | Title                                                                                    |
+| ------- | ---------------------------------------------------------------------------------------- |
+| 2012-04 | Improve Accounting of Common School Fund                                                 |
+| 2012-05 | Agencies Ensured Contracts With Former State Employees Were Properly Awarded             |
+| 2012-11 | Strategies to Better Address Federal Level of Effort Requirements                        |
+| 2012-12 | Child Welfare Program: Strategies to Help Caseworkers Reunite More Families              |
+| 2012-15 | Senate Bill 1149 Energy Surcharge: Unrealized Savings on Energy and School Utility Costs |
+| 2012-16 | Children's Mental Health: Ensuring Access and Sustaining Services                        |
+| 2012-18 | Improvements Needed to Better Meet Oregon's Middle-Skill Workforce Needs                 |
+| 2012-20 | Boards and Commissions: Common Risks, Needed Oversight, and Steps to Manage Them         |
+| 2012-22 | Managing Security Personnel Costs                                                        |
+| 2012-25 | Computer Controls for the Oregon Benefit Information System Need Attention               |
+| 2012-26 | Improve Accountability                                                                   |
+| 2012-28 | More Timely and Consistent Services                                                      |
+
+---
+
+# Financial Audits Excluded
+
+* 2012-01
+* 2012-03
+* 2012-08
+* 2012-09
+* 2012-13
+* 2012-21
+* 2012-27
+* 2012-31
+* 2012-32
+* 2012-34
+* 2012-35
+
+---
+
+# Reports Not Present in Dataset
+
+* 2012-02
+* 2012-06
+* 2012-07
+* 2012-10
+* 2012-14
+* 2012-17
+* 2012-19
+* 2012-23
+* 2012-24
+* 2012-29
+* 2012-30
+* 2012-33
+
+---
+
+# Corpus Statistics
+
+| Metric             |               Value |
+| ------------------ | ------------------: |
+| Performance audits | **12 / 35 (34.3%)** |
+| Financial audits   | **11 / 35 (31.4%)** |
+| Missing reports    | **12 / 35 (34.3%)** |
+
+---
+
+# Key Research Observations
+
+## 1. Shift Toward Systems Auditing
+
+The 2012 corpus marks a clear transition from agency-focused operational audits toward evaluations of statewide policy systems. Rather than concentrating on individual programs, auditors increasingly examined cross-agency governance structures and long-term policy effectiveness.
+
+Representative topics include:
+
+* Workforce development
+* Children's behavioral health
+* Federal grant administration
+* Energy policy
+* Supplier diversity certification
+* State boards and commissions
+
+The primary analytical unit shifted from the **individual agency** to the **public system**.
+
+---
+
+## 2. Governance Became the Central Theme
+
+Governance emerged as the dominant focus throughout the year.
+
+Recurring concepts include:
+
+* Accountability
+* Transparency
+* Board oversight
+* Legislative design
+* Interagency coordination
+* Organizational capacity
+
+Many reports concluded that organizational design and governance arrangements influenced program performance as much as day-to-day operations.
+
+---
+
+## 3. Greater Emphasis on Outcomes
+
+Audits increasingly evaluated whether state programs produced their intended public benefits rather than simply complying with statutory or administrative requirements.
+
+Examples include:
+
+* Workforce shortages
+* Child reunification outcomes
+* Mental health access
+* Energy savings
+* Certification timeliness
+
+Outcome evaluation became a defining characteristic of the 2012 corpus.
+
+---
+
+## 4. Performance Measurement Matured
+
+Nearly every performance audit emphasized the importance of management information, including:
+
+* Performance indicators
+* Comparative analysis
+* Trend monitoring
+* Dashboards
+* Data quality
+* Continuous performance monitoring
+
+This represents a notable evolution from the more control-oriented emphasis observed in earlier years.
+
+---
+
+## 5. Strategic Planning Became Increasingly Prominent
+
+Several audits evaluated agencies' ability to anticipate future needs instead of merely responding to existing problems.
+
+Examples include:
+
+* Workforce forecasting
+* Energy investment prioritization
+* Board sunset reviews
+* Statewide coordination
+* Resource allocation
+
+Strategic planning became an increasingly common audit criterion.
+
+---
+
+## 6. Information as a Strategic Asset
+
+Rather than treating data solely as administrative records, many audits viewed information as a management resource requiring:
+
+* Data quality controls
+* Performance analytics
+* Decision-support systems
+* Knowledge sharing
+* Governance structures
+
+Information management became a recurring governance issue across multiple policy areas.
+
+---
+
+# OPAP Taxonomy Development
+
+The 2012 corpus substantially expanded the OPAP taxonomy by introducing or reinforcing several coding categories.
+
+### Governance & Accountability
+
+* Governance
+* Board Governance
+* Accountability Frameworks
+* Legislative Design
+* Transparency
+
+### Strategy & Management
+
+* Strategic Planning
+* Decision Support
+* Organizational Learning
+* Organizational Capacity
+* Workforce Planning
+
+### Service Delivery
+
+* Care Coordination
+* Equity & Access
+* Customer Service
+* Business Process Management
+* Workflow Design
+* Results-Based Management
+
+### Information & Technology
+
+* Data Governance
+* Information Technology Governance
+* Information Technology Modernization
+* Change Management
+* Business Continuity
+
+### Performance & Finance
+
+* Cost-Benefit Analysis
+* Performance Measurement
+* Resource Management
+
+These additions represent a substantial expansion beyond the operational and internal-control focus that characterized the early years of the project.
+
+---
+
+# Cross-Year Comparison
+
+| Year     | Performance Audits | Dominant Themes                                                     |
+| -------- | -----------------: | ------------------------------------------------------------------- |
+| **2010** |                 12 | Internal controls, financial stewardship, program administration    |
+| **2011** |                 11 | Operational effectiveness, service delivery, management improvement |
+| **2012** |                 12 | Governance, statewide systems, strategic performance                |
+
+Across the first three years, the Oregon Audits Division demonstrates a clear evolution toward broader governance and policy-oriented performance auditing.
+
+---
+
+# Release Status
+
+## Completed Corpus Years
+
+* ✅ 2010
+* ✅ 2011
+* ✅ 2012
+
+## Project Totals
+
+| Category                       |  Count |
+| ------------------------------ | -----: |
+| Performance audits coded       | **35** |
+| Financial audits excluded      | **24** |
+| Unavailable reports documented | **27** |
