@@ -37,4 +37,27 @@ The project follows Semantic Versioning (MAJOR.MINOR.PATCH).
 
 ---
 
-Future releases will continue documenting methodological improvements, datasets, publications, and analytical capabilities.
+## [1.2a] — Pilot Complete
+
+### Added
+
+- Completed coding of the entire 2012 Oregon Secretary of State performance audit corpus.
+- Added 12 new performance audits.
+- Added 2012 corpus closeout documentation.
+- Expanded the OPAP taxonomy with governance, workforce planning, business process management, information technology governance, customer service, and results-based management concepts.
+
+### Completed
+
+- 2010 corpus
+- 2011 corpus
+- 2012 corpus
+
+### Totals
+
+- 35 performance audits coded
+- 24 financial audits excluded
+- 27 unavailable reports documented
+
+### Notes
+
+Release 1.2a concludes the OPAP pilot phase (2010–2012) and establishes the baseline methodology for future corpus years.
